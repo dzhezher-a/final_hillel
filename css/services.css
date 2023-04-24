@@ -49,12 +49,12 @@ footer {
 
 header {
   position: relative;
-  background: url(../img/index/Symbol.svg);
+  background: url(../img/services/Symbol.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
   background-attachment: unset;
-  height: 100vh;
+  height: 20vh;
   border-radius: 0px 0px 12px 12px;
 }
 header #desktop-nav {
@@ -111,13 +111,13 @@ header .top-nav .phone-top:hover {
   border-bottom: 2px solid #ffffff;
 }
 header .top-nav .fb-logo {
-  background-image: url(../img/index/facebook-header.svg);
+  background-image: url(../img/services/facebook-header.svg);
   width: 24px;
   height: 24px;
   transition: 0.5s;
 }
 header .top-nav .fb-logo:hover {
-  background-image: url(../img/index/facebook-header-hover.svg);
+  background-image: url(../img/services/facebook-header-hover.svg);
 }
 header .top-nav .top-subnav__link {
   font-weight: 700;
@@ -128,77 +128,6 @@ header .top-nav .top-subnav__link:hover {
 header .top-nav .top-subnav__link:active {
   color: #f0145a;
   border-color: #f0145a;
-}
-header .header-extra {
-  padding-top: 35vh;
-}
-header .header-extra h1 {
-  color: #ffffff;
-  text-align: center;
-  font-size: 38px;
-  line-height: 46px;
-}
-header .header-extra .scroll-down-container {
-  display: flex;
-  padding-top: 42vh;
-}
-header .header-extra .scroll-down-container .arrow-down {
-  margin: 0 auto;
-  width: 42px;
-  height: 42px;
-}
-header .header-extra .scroll-down-container .arrow-down span {
-  display: inline-block;
-  width: inherit;
-  height: inherit;
-  background-image: url(../img/index/scroll.svg);
-}
-header .header-extra .scroll-down-container .arrow-down span:hover {
-  background-image: url(../img/index/scroll-hover.svg);
-}
-
-#intro {
-  padding: 60px 6.85vw;
-}
-#intro .intro-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 60px;
-}
-#intro .intro-container .intro__advantages {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-#intro .intro-container .intro__advantages h2 {
-  font-size: 2.375rem;
-  text-align: right;
-}
-#intro .intro-container .intro__advantages h2 a {
-  text-decoration: none;
-  color: #b3b3ba;
-  transition: all 0.5s;
-}
-#intro .intro-container .intro__advantages h2 a:hover {
-  color: #f0145a;
-}
-#intro .intro-container .intro__advantages-divider {
-  width: 4px;
-  height: 303px;
-  background: rgba(255, 255, 255, 0.3);
-}
-#intro .intro-container .intro__advantages-text {
-  width: 43%;
-}
-#intro .intro-container .intro__advantages-text h3 {
-  padding-bottom: 30px;
-  color: #ffffff;
-}
-#intro .intro-container .intro__advantages-text p {
-  color: #ffffff;
-  font-size: 1.1875rem;
 }
 
 #services {
@@ -244,90 +173,8 @@ header .header-extra .scroll-down-container .arrow-down span:hover {
   color: #ffffff;
 }
 
-#team {
-  padding-top: 80px;
-  padding-bottom: 60px;
-}
-#team .team-carousel {
-  width: 83.3vw;
-  height: 27.6vh;
-  position: relative;
-  display: flex;
-  overflow: hidden;
-}
-#team .team-carousel .team-carousel__slide {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  justify-content: baseline;
-  transition: all 0.5s;
-}
-#team .team-carousel .team-carousel__slide .team-carousel__slide-img {
-  width: 400px;
-  height: 100%;
-  background: url(../img/index/team-photo.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#team .team-carousel .team-carousel__slide .team-carousel__slide-content {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 30px;
-  background-color: #f5f5fa;
-  border-radius: 0 12px 12px 0;
-}
-#team .team-carousel .team-carousel__slide .team-carousel__slide-content h2 a {
-  color: #24a3ff;
-  text-decoration: none;
-  transition: all 0.5s;
-}
-#team .team-carousel .team-carousel__slide .team-carousel__slide-content h2 a:hover {
-  color: #f0145a;
-}
-#team .team-carousel .team-carousel__slide .team-carousel__slide-content h3 {
-  padding-bottom: 30px;
-}
-#team .team-carousel .team-carousel__slide .team-carousel__slide-content h4 {
-  color: #b3b3ba;
-  padding-bottom: 6px;
-}
-#team .team-carousel .team-carousel__slide .team-carousel__slide-content h5 {
-  font-size: 0.875rem;
-  color: #b3b3ba;
-}
-#team .carousel-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  padding-top: 30px;
-}
-#team .carousel-buttons button {
-  width: 16px;
-  height: 16px;
-  border: none;
-  border-radius: 100px;
-  background-color: #24a3ff;
-  opacity: 0.2;
-  transition: all 0.5s;
-  cursor: pointer;
-}
-#team .carousel-buttons button:hover {
-  opacity: 1;
-}
-#team .carousel-buttons button:active {
-  opacity: 1;
-}
-#team .carousel-buttons button:focus {
-  opacity: 1;
-}
-
 #trust-us {
-  padding: 0 5.2vw 60px 5.2vw;
+  padding: 60px 5.2vw 60px 5.2vw;
 }
 #trust-us h3 {
   text-align: center;
@@ -360,70 +207,6 @@ header .header-extra .scroll-down-container .arrow-down span:hover {
   border-radius: 0 0 12px 0;
 }
 
-#publications {
-  background-color: #f5f5fa;
-  padding-bottom: 30px;
-}
-#publications h2,
-#publications a {
-  text-decoration: none;
-  color: #24a3ff;
-  transition: all 0.5s;
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-#publications h2:hover,
-#publications a:hover {
-  color: #f0145a;
-}
-#publications h3 {
-  padding-bottom: 30px;
-}
-#publications .publications-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 30px;
-  border-radius: 8px;
-}
-#publications .publications-container .publications-container__card {
-  width: calc(33.3333333333% - 60px);
-  flex: none;
-  align-self: stretch;
-  flex-grow: 1;
-  background-color: #ffffff;
-}
-#publications .publications-container .publications-container__card img {
-  width: 100%;
-  height: 200px;
-  border-radius: 8px 8px 0 0;
-}
-#publications .publications-container .publications-container__card h4 {
-  color: #24a3ff;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-#publications .publications-container .publications-container__card h5 {
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #b3b3ba;
-  padding: 15px 0;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-#publications .publications-container .publications-container__card .publication-separator {
-  width: calc(100% - 60px);
-  height: 4px;
-  background-color: #e6e6f0;
-  margin: 0 auto 15px auto;
-}
-#publications .publications-container .publications-container__card p {
-  font-size: 0.875rem;
-  margin: 0 30px 30px 30px;
-}
-
 .grey-separator {
   width: 100%;
   height: 2px;
@@ -433,6 +216,7 @@ header .header-extra .scroll-down-container .arrow-down span:hover {
 
 footer {
   background-color: #f5f5fa;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 footer a {
@@ -483,7 +267,7 @@ footer .footer-container .footer-container__item .footer-container__copyright h4
   color: #b3b3ba;
 }
 footer .footer-container a .fb-logo {
-  background-image: url(../img/index/facebook-footer.svg);
+  background-image: url(../img/services/facebook-footer.svg);
   width: 38px;
   height: 38px;
   transition: all 0.5s;
@@ -493,7 +277,7 @@ footer .footer-container a .fb-logo {
 footer .footer-container a .fb-logo:hover {
   width: 38px;
   height: 38px;
-  background-image: url(../img/index/facebook-header-hover.svg);
+  background-image: url(../img/services/facebook-header-hover.svg);
 }
 footer .footer-container .phone-bottom {
   color: #46466e;
@@ -520,48 +304,21 @@ section,
 footer {
     padding: 0 60px;
   }
-  header .header-extra {
-    padding-top: 33vh;
-  }
-  header .header-extra .scroll-down-container {
-    padding-top: 40vh;
-  }
-  #intro {
-    padding: 60px 8vw;
-  }
-  #intro .intro-container .intro__advantages-text {
-    width: 37%;
-  }
-  #team .team-carousel {
-    width: 91.66vw;
-    height: 38.22vh;
-  }
   #trust-us {
-    padding: 0;
+    padding: 40px 0 0 0;
   }
   #trust-us .brand-container .brand-container__item:nth-child(1) img, #trust-us .brand-container .brand-container__item:nth-child(4) img, #trust-us .brand-container .brand-container__item:nth-child(9) img, #trust-us .brand-container .brand-container__item:nth-child(12) img {
     border-radius: 0;
   }
   footer {
+    padding-top: 30px;
     padding-bottom: 30px;
-  }
-}
-@media (max-width: 1439px) {
-  #intro {
-    padding: 60px 5.86vw;
-  }
-  #team .team-carousel {
-    width: 88.28vw;
-    height: 68.75vh;
-  }
-  #team .team-carousel .team-carousel__slide .team-carousel__slide-img {
-    width: 100%;
-    background-size: 100% 100%;
   }
 }
 @media (max-width: 1023px) {
   header {
     background-size: cover;
+    height: 30vh;
   }
   header #desktop-nav {
     display: none;
@@ -576,67 +333,11 @@ footer {
     align-items: flex-start;
     gap: 10px;
   }
-  header .header-extra {
-    padding-top: 21vh;
-  }
-  header .header-extra .scroll-down-container {
-    padding-top: 41vh;
-  }
-  #intro .intro-container {
-    flex-direction: column;
-    width: 100%;
-  }
-  #intro .intro-container .intro__advantages {
-    flex-direction: row;
-    width: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-  }
-  #intro .intro-container .intro__advantages::-webkit-scrollbar {
-    width: 0;
-  }
-  #intro .intro-container .intro__advantages h2 {
-    min-width: -webkit-max-content;
-    min-width: -moz-max-content;
-    min-width: max-content;
-  }
-  #intro .intro-container .intro__advantages h2 a {
-    min-width: inherit;
-    word-wrap: normal;
-  }
-  #intro .intro-container .intro__advantages-divider {
-    width: 100%;
-    height: 4px;
-    background: rgba(255, 255, 255, 0.3);
-  }
-  #intro .intro-container .intro__advantages-text {
-    width: 95%;
-  }
   #services .service-container .service-card {
     width: calc(50% - 60px);
   }
-  #team .team-carousel {
-    width: 84.375vw;
-    height: 104vh;
-  }
-  #team .team-carousel .team-carousel__slide {
-    flex-direction: column;
-  }
-  #team .team-carousel .team-carousel__slide .team-carousel__slide-img {
-    height: 100%;
-    background-image: url(../img/index/team-photo-mobile.png);
-  }
-  #team .team-carousel .team-carousel__slide .team-carousel__slide-content {
-    border-radius: 0 0 12px 12px;
-  }
   #trust-us .brand-container .brand-container__item {
     width: 33.3333333333%;
-  }
-  #publications .publications-container {
-    flex-wrap: wrap;
-  }
-  #publications .publications-container .publications-container__card {
-    width: calc(50% - 30px);
   }
 }
 @media (max-width: 767px) {
@@ -653,6 +354,9 @@ footer {
     width: 100vw;
     height: 45px;
     z-index: 1;
+  }
+  header {
+    height: 15vh;
   }
   header #desktop-nav,
 header #tablet-nav {
@@ -682,8 +386,8 @@ header #tablet-nav {
     right: 6%;
   }
   header .top-nav .logo-top img {
-    width: 70px;
-    height: 32px;
+    width: 179px;
+    height: 36px;
   }
   header .top-nav .top-subnav__item.top-subnav__item_burger {
     margin-left: auto;
@@ -746,18 +450,6 @@ header #tablet-nav {
     transform: translateY(0) rotate(-45deg);
     opacity: 0.8;
   }
-  header .header-extra {
-    padding-top: 40vh;
-  }
-  #intro {
-    padding-bottom: 30px;
-  }
-  #intro .intro-container {
-    gap: 30px;
-  }
-  #intro .intro-container .intro__advantages h2 {
-    font-size: 1.875rem;
-  }
   #services h2 {
     padding-bottom: 30px;
   }
@@ -768,26 +460,14 @@ header #tablet-nav {
   #services .service-container .service-card {
     width: 100%;
   }
-  #team .team-carousel {
-    width: 84.375vw;
-    height: 120vh;
-  }
-  #team .team-carousel .team-carousel__slide {
-    flex-direction: column;
-  }
-  #team .team-carousel .team-carousel__slide .team-carousel__slide-img {
-    height: 100%;
-  }
   #trust-us .brand-container .brand-container__item {
     width: 100%;
   }
   #trust-us .brand-container .brand-container__item:nth-child(7) img, #trust-us .brand-container .brand-container__item:nth-child(8) img, #trust-us .brand-container .brand-container__item:nth-child(9) img, #trust-us .brand-container .brand-container__item:nth-child(10) img, #trust-us .brand-container .brand-container__item:nth-child(11) img, #trust-us .brand-container .brand-container__item:nth-child(12) img {
     display: none;
   }
-  #publications .publications-container .publications-container__card {
-    width: 100%;
-  }
   footer {
+    padding-top: 30px;
     padding-bottom: 30px;
   }
   footer .footer-container {

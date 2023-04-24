@@ -1,7 +1,3 @@
-// variables import
-
-@import "variables";
-
 // Desktop HD Version (main)
 
 header,
@@ -57,12 +53,12 @@ footer {
 
 header {
   position: relative;
-  background: url(../img/index/Symbol.svg);
+  background: url(../img/services/Symbol.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
   background-attachment: unset;
-  height: 100vh;
+  height: 20vh;
   border-radius: 0px 0px 12px 12px;
 
   #desktop-nav {
@@ -129,13 +125,13 @@ header {
     }
 
     .fb-logo {
-      background-image: url(../img/index/facebook-header.svg);
+      background-image: url(../img/services/facebook-header.svg);
       width: 24px;
       height: 24px;
       transition: 0.5s;
 
       &:hover {
-        background-image: url(../img/index/facebook-header-hover.svg);
+        background-image: url(../img/services/facebook-header-hover.svg);
       }
     }
 
@@ -149,91 +145,6 @@ header {
       &:active {
         color: $color-accent;
         border-color: $color-accent;
-      }
-    }
-  }
-
-  .header-extra {
-    padding-top: 35vh;
-
-    h1 {
-      color: #ffffff;
-      text-align: center;
-      font-size: 38px;
-      line-height: 46px;
-    }
-
-    .scroll-down-container {
-      display: flex;
-      padding-top: 42vh;
-
-      .arrow-down {
-        margin: 0 auto;
-        width: 42px;
-        height: 42px;
-
-        span {
-          display: inline-block;
-          width: inherit;
-          height: inherit;
-          background-image: url(../img/index/scroll.svg);
-
-          &:hover {
-            background-image: url(../img/index/scroll-hover.svg);
-          }
-        }
-      }
-    }
-  }
-}
-
-#intro {
-  padding: 60px 6.85vw;
-  .intro-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-
-    .intro__advantages {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-
-      h2 {
-        font-size: 2.375rem;
-        text-align: right;
-
-        a {
-          text-decoration: none;
-          color: $color-grey__text;
-          transition: all 0.5s;
-
-          &:hover {
-            color: $color-accent;
-          }
-        }
-      }
-    }
-
-    .intro__advantages-divider {
-      width: 4px;
-      height: 303px;
-      background: rgba(255, 255, 255, 0.3);
-    }
-
-    .intro__advantages-text {
-      width: 43%;
-
-      h3 {
-        padding-bottom: 30px;
-        color: #ffffff;
-      }
-
-      p {
-        color: #ffffff;
-        font-size: 1.1875rem;
       }
     }
   }
@@ -290,106 +201,8 @@ header {
   }
 }
 
-#team {
-  padding-top: 80px;
-  padding-bottom: 60px;
-
-  .team-carousel {
-    width: 83.3vw;
-    height: 27.6vh;
-    position: relative;
-    display: flex;
-    overflow: hidden;
-
-    .team-carousel__slide {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      display: flex;
-      flex-direction: row;
-      justify-content: baseline;
-      transition: all 0.5s;
-
-      .team-carousel__slide-img {
-        width: 400px;
-        height: 100%;
-        background: url(../img/index/team-photo.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-
-      .team-carousel__slide-content {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding: 30px;
-        background-color: $color-grey__bg;
-        border-radius: 0 12px 12px 0;
-
-        h2 {
-          a {
-            color: $color-active;
-            text-decoration: none;
-            transition: all 0.5s;
-
-            &:hover {
-              color: $color-accent;
-            }
-          }
-        }
-
-        h3 {
-          padding-bottom: 30px;
-        }
-
-        h4 {
-          color: $color-grey__text;
-          padding-bottom: 6px;
-        }
-
-        h5 {
-          font-size: 0.875rem;
-          color: $color-grey__text;
-        }
-      }
-    }
-  }
-
-  .carousel-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    padding-top: 30px;
-
-    button {
-      width: 16px;
-      height: 16px;
-      border: none;
-      border-radius: 100px;
-      background-color: $color-active;
-      opacity: 0.2;
-      transition: all 0.5s;
-      cursor: pointer;
-
-      &:hover {
-        opacity: 1;
-      }
-
-      &:active {
-        opacity: 1;
-      }
-
-      &:focus {
-        opacity: 1;
-      }
-    }
-  }
-}
-
 #trust-us {
-  padding: 0 5.2vw 60px 5.2vw;
+  padding: 60px 5.2vw 60px 5.2vw;
 
   h3 {
     text-align: center;
@@ -430,79 +243,6 @@ header {
   }
 }
 
-#publications {
-  background-color: $color-grey__bg;
-  padding-bottom: 30px;
-
-  h2,
-  a {
-    text-decoration: none;
-    color: $color-active;
-    transition: all 0.5s;
-    padding-top: 30px;
-    padding-bottom: 10px;
-
-    &:hover {
-      color: $color-accent;
-    }
-  }
-
-  h3 {
-    padding-bottom: 30px;
-  }
-
-  .publications-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-    border-radius: 8px;
-
-    .publications-container__card {
-      width: calc((100% / 3) - 60px);
-      flex: none;
-      align-self: stretch;
-      flex-grow: 1;
-      background-color: #ffffff;
-
-      img {
-        width: 100%;
-        height: 200px;
-        border-radius: 8px 8px 0 0;
-      }
-
-      h4 {
-        color: $color-active;
-        padding-top: 30px;
-        padding-left: 30px;
-        padding-right: 30px;
-      }
-
-      h5 {
-        font-size: 0.75rem;
-        font-weight: 700;
-        letter-spacing: 1px;
-        color: $color-grey__text;
-        padding: 15px 0;
-        padding-left: 30px;
-        padding-right: 30px;
-      }
-
-      .publication-separator {
-        width: calc(100% - 60px);
-        height: 4px;
-        background-color: $color-grey__separator;
-        margin: 0 auto 15px auto;
-      }
-
-      p {
-        font-size: 0.875rem;
-        margin: 0 30px 30px 30px;
-      }
-    }
-  }
-}
-
 .grey-separator {
   width: 100%;
   height: 2px;
@@ -512,6 +252,7 @@ header {
 
 footer {
   background-color: $color-grey__bg;
+  padding-top: 30px;
   padding-bottom: 30px;
 
   a {
@@ -579,7 +320,7 @@ footer {
 
     a {
       .fb-logo {
-        background-image: url(../img/index/facebook-footer.svg);
+        background-image: url(../img/services/facebook-footer.svg);
         width: 38px;
         height: 38px;
         transition: all 0.5s;
@@ -589,7 +330,7 @@ footer {
         &:hover {
           width: 38px;
           height: 38px;
-          background-image: url(../img/index/facebook-header-hover.svg);
+          background-image: url(../img/services/facebook-header-hover.svg);
         }
       }
     }
@@ -627,35 +368,8 @@ footer {
     padding: 0 60px;
   }
 
-  header {
-    .header-extra {
-      padding-top: 33vh;
-
-      .scroll-down-container {
-        padding-top: 40vh;
-      }
-    }
-  }
-
-  #intro {
-    padding: 60px 8vw;
-
-    .intro-container {
-      .intro__advantages-text {
-        width: 37%;
-      }
-    }
-  }
-
-  #team {
-    .team-carousel {
-      width: 91.66vw;
-      height: 38.22vh;
-    }
-  }
-
   #trust-us {
-    padding: 0;
+    padding: 40px 0 0 0;
 
     .brand-container {
       .brand-container__item {
@@ -668,7 +382,9 @@ footer {
       }
     }
   }
+
   footer {
+    padding-top: 30px;
     padding-bottom: 30px;
   }
 }
@@ -676,23 +392,6 @@ footer {
 // Tablet HD Version
 
 @media (max-width: 1439px) {
-  #intro {
-    padding: 60px 5.86vw;
-  }
-
-  #team {
-    .team-carousel {
-      width: 88.28vw;
-      height: 68.75vh;
-
-      .team-carousel__slide {
-        .team-carousel__slide-img {
-          width: 100%;
-          background-size: 100% 100%;
-        }
-      }
-    }
-  }
 }
 
 // Tablet SD Version
@@ -700,6 +399,7 @@ footer {
 @media (max-width: 1023px) {
   header {
     background-size: cover;
+    height: 30vh;
 
     #desktop-nav {
       display: none;
@@ -716,51 +416,6 @@ footer {
       align-items: flex-start;
       gap: 10px;
     }
-
-    .header-extra {
-      padding-top: 21vh;
-
-      .scroll-down-container {
-        padding-top: 41vh;
-      }
-    }
-  }
-
-  #intro {
-    .intro-container {
-      flex-direction: column;
-      width: 100%;
-
-      .intro__advantages {
-        flex-direction: row;
-        width: 100%;
-        overflow-x: auto;
-        overflow-y: hidden;
-
-        &::-webkit-scrollbar {
-          width: 0;
-        }
-
-        h2 {
-          min-width: max-content;
-
-          a {
-            min-width: inherit;
-            word-wrap: normal;
-          }
-        }
-      }
-
-      .intro__advantages-divider {
-        width: 100%;
-        height: 4px;
-        background: rgba(255, 255, 255, 0.3);
-      }
-
-      .intro__advantages-text {
-        width: 95%;
-      }
-    }
   }
 
   #services {
@@ -771,39 +426,10 @@ footer {
     }
   }
 
-  #team {
-    .team-carousel {
-      width: 84.375vw;
-      height: 104vh;
-
-      .team-carousel__slide {
-        flex-direction: column;
-
-        .team-carousel__slide-img {
-          height: 100%;
-          background-image: url(../img/index/team-photo-mobile.png);
-        }
-
-        .team-carousel__slide-content {
-          border-radius: 0 0 12px 12px;
-        }
-      }
-    }
-  }
-
   #trust-us {
     .brand-container {
       .brand-container__item {
         width: calc(100% / 3);
-      }
-    }
-  }
-
-  #publications {
-    .publications-container {
-      flex-wrap: wrap;
-      .publications-container__card {
-        width: calc((100% / 2) - 30px);
       }
     }
   }
@@ -829,6 +455,7 @@ footer {
   }
 
   header {
+    height: 15vh;
     #desktop-nav,
     #tablet-nav {
       display: none;
@@ -862,8 +489,8 @@ footer {
       }
 
       .logo-top img {
-        width: 70px;
-        height: 32px;
+        width: 179px;
+        height: 36px;
       }
 
       // burger-menu
@@ -942,24 +569,6 @@ footer {
         opacity: 0.8;
       }
     }
-
-    .header-extra {
-      padding-top: 40vh;
-    }
-  }
-
-  #intro {
-    padding-bottom: 30px;
-
-    .intro-container {
-      gap: 30px;
-
-      .intro__advantages {
-        h2 {
-          font-size: 1.875rem;
-        }
-      }
-    }
   }
 
   #services {
@@ -973,21 +582,6 @@ footer {
 
       .service-card {
         width: 100%;
-      }
-    }
-  }
-
-  #team {
-    .team-carousel {
-      width: 84.375vw;
-      height: 120vh;
-
-      .team-carousel__slide {
-        flex-direction: column;
-
-        .team-carousel__slide-img {
-          height: 100%;
-        }
       }
     }
   }
@@ -1009,15 +603,8 @@ footer {
     }
   }
 
-  #publications {
-    .publications-container {
-      .publications-container__card {
-        width: 100%;
-      }
-    }
-  }
-
   footer {
+    padding-top: 30px;
     padding-bottom: 30px;
 
     .footer-container {

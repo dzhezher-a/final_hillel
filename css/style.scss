@@ -17,7 +17,7 @@
   src: url(../fonts/Montserrat-Bold.ttf);
 }
 
-// normalize-like
+// kinda-normalize
 
 * {
   margin: 0;
@@ -29,6 +29,7 @@ html,
 body {
   max-width: 100%;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .hero-font {
@@ -40,16 +41,33 @@ body {
   line-height: 2.875rem;
 }
 
+.hero-font_reversed {
+  background-image: $gradient__red-text-reversed;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.375rem;
+  font-weight: bold;
+  line-height: 2.875rem;
+}
+
+@media (max-width: 767px) {
+  .hero-font,
+  .hero-font_reversed {
+    font-size: 1.875rem !important;
+    line-height: 2.28rem;
+  }
+}
+
 h2 {
   color: $color-main;
-  font-size: 1.875;
+  font-size: 1.875rem;
   font-weight: 700;
   line-height: 2.3125rem;
 }
 
 h3 {
   color: $color-main;
-  font-size: 1.375;
+  font-size: 1.375rem;
   font-weight: 700;
   line-height: 1.6875rem;
 }
@@ -64,7 +82,7 @@ h3 {
 
 h4 {
   color: $color-main;
-  font-size: 1;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.2rem;
 }
